@@ -3220,7 +3220,7 @@ input, select, textarea {
 		width: 100vw;
 		padding: 0 0 10rem 0;
 	}
-
+/* background */
 		#wrapper:before {
 			background-attachment: fixed;
 			background-color: #ffffff;
@@ -3289,9 +3289,9 @@ input, select, textarea {
 		#wrapper > section {
 			position: relative;
 		}
-
+/* long line */
 			#wrapper > section > header:before {
-				background: #43d9b8;
+				background: #E6C619;
 				content: '';
 				display: block;
 				margin-top: 1rem;
@@ -3302,18 +3302,18 @@ input, select, textarea {
 			#wrapper > section > header h1, #wrapper > section > header h2 {
 				position: relative;
 			}
-
+/* line */
 				#wrapper > section > header h1:before, #wrapper > section > header h2:before {
-					background: #43d9b8;
+					background: #E6C619;
 					content: '';
 					display: block;
 					height: 2px;
 					position: absolute;
 					top: 1rem;
 				}
-
+/* line */
 				#wrapper > section > header h1:after, #wrapper > section > header h2:after {
-					background: #43d9b8;
+					background: #E6C619;
 					border-radius: 0.5rem;
 					content: '';
 					display: block;
@@ -3370,7 +3370,7 @@ input, select, textarea {
 			}
 
 			#wrapper > section:last-of-type > header:after {
-				background: #43d9b8;
+				background: #E6C619;
 				border-radius: 0.5rem;
 				bottom: -1.5rem;
 				content: '';
@@ -3584,7 +3584,7 @@ input, select, textarea {
 				#wrapper > section {
 					margin: 0;
 				}
-
+/* background */
 					#wrapper > section > header {
 						background-attachment: fixed;
 						background-color: #FFFFFF;
