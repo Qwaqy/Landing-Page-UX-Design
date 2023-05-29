@@ -23,7 +23,9 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+	scroll-behavior: smooth;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -3885,5 +3887,9 @@ input, select, textarea {
 
 	.incitatif {
 		color: #E6C619 ;
+		font-weight: bold;
+	}
+
+	.intro a {
 		font-weight: bold;
 	}
