@@ -53,6 +53,7 @@
 					<section>
 						<header>
 							<h2>Accéder au Questionnaire</h2>
+							<p>Et tentez de <b>Gagné une Carte Cadeau de 50€</b></p>
 						</header>
 						<div class="content" id="Questionaire">
 							<form method="post" action="#">
@@ -71,7 +72,7 @@
 								</div>
 								<ul class="field actions">
 									<li>
-										<a href="http://kmcms.net/Doc/Experiences/touch/haptic/" class="button primary" target="_blank">Accéder au questionnaire</a>
+										<a href="http://kmcms.net/Doc/Experiences/touch/haptic/french.html" class="button primary" target="_blank">Accéder au questionnaire</a>
 									</li>
 									<li class="icon solid fa-laptop"><a href="white_paper.html">Accès White Paper</a></li>
 								</ul>
@@ -92,6 +93,25 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<script>
+				window.addEventListener('mouseover', initLandbot, { once: true });
+				window.addEventListener('touchstart', initLandbot, { once: true });
+				var myLandbot;
+				function initLandbot() {
+				  if (!myLandbot) {
+				    var s = document.createElement('script');s.type = 'text/javascript';s.async = true;
+				    s.addEventListener('load', function() {
+				      var myLandbot = new Landbot.Livechat({
+				        configUrl: 'https://storage.googleapis.com/landbot.online/v3/H-1613506-QN2N9FURNSE3ZGO6/index.json',
+				      });
+				    });
+				    s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.js';
+				    var x = document.getElementsByTagName('script')[0];
+				    x.parentNode.insertBefore(s, x);
+				  }
+				}
+			</script>
 
 	</body>
 </html>
